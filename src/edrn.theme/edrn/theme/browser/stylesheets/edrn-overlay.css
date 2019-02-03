@@ -1,0 +1,493 @@
+/* EDRN Overlay Stylesheet */
+.clear {
+	clear:both;
+}
+
+td#portal-column-one {
+	width:180px;
+}
+td#portal-column-content {
+
+}
+td#portal-column-two {
+	width:180px;
+	padding-top:0px;
+}
+
+div#portal-top {
+	position:relative;
+}
+
+ul#portal-globalnav {
+	padding-bottom:3px;
+	border-bottom: solid 1px black;
+	background-color:transparent;
+	font-family:arial, sans-serif;	
+	font-size:15px;
+}
+ul#portal-globalnav li a {
+	border-color:#727272;
+	border-bottom:solid 1px #444;
+	border-right:solid 1px #5f5f5f;
+	margin-left:0px;
+	margin-right:0px;
+	background-color:#6b6b6b;
+	padding-bottom:3px;
+	padding-top:3px;
+	color:#eee;
+}
+
+ul#portal-globalnav li a:hover {
+	background-color:#fff;
+	border-bottom:solid 1px #fff;
+}
+
+ul#portal-globalnav li.selected a {
+	background-color:#fff;
+	border:0px;
+	border-top:solid 1px #aaa;
+	border-right:solid 1px #aaa;
+	border-bottom:solid 1px #fff;
+	border-left:solid 1px #aaa;
+	padding-top:6px;
+}
+div#portal-breadcrumbs {
+	color:#333;
+	padding-left:12px;
+}
+
+div#portal-personaltools-wrapper {
+	position:absolute;
+	top: 80px;
+	right:0px;
+	width: 300px;
+}
+#portal-personaltools {
+	background-color:transparent;
+	border:none;
+	font-size:90%;
+	padding-right:7px;
+}
+
+ul#edrn-quicklinks {
+	margin-top:0px;
+}
+ul#edrn-quicklinks li {
+	padding-right:5px;
+}
+div.searchResultsContainer {
+	width:780px;
+}
+
+table.listing {
+	border-width:0px;
+	font-size:100%;
+	width:100%;
+}
+
+table.listing tr.even {
+
+}
+
+table.listing tr.odd {
+
+}
+
+table.listing td {
+	border-bottom:0;
+	border-right:0;
+	padding-bottom:6px;
+	padding-top:6px;
+}
+table.listing th {
+	border-right:0;
+	border-top:0;
+	text-align:left;
+	font-weight:bold;
+}
+table.listing.sitesByType {
+
+}
+table.listing.sitesByType td.piLink {
+	width:25%;
+}
+
+#region-content {
+	border:solid 0px #ccc;
+}
+
+h1 {
+	font-size:200%;
+	border-bottom:dotted 1px #ccc;	
+	margin-bottom:1.3em;
+	color:#533;
+}
+h1.documentFirstHeading {
+	margin-top:-0.2em;
+}
+h3#welcomeText {
+	margin-top:0px;
+}
+h3.Subheading {
+	font-size:110%;
+}
+h3.homepageTitle {
+	padding-top:340px;
+	padding-bottom:10px;
+	text-align:center;
+	color:#732;
+	border-bottom:solid 7px #b54;
+}
+
+
+.documentDescription {
+	font-weight:normal;
+	line-height:1.5em;
+}
+
+
+div#content div label {
+	display:block;
+	background-color:#eaf2f2;
+	color:#344;
+	padding:5px;
+	border-bottom:solid 1px #dde;
+	margin-top:8px;
+	margin-bottom:8px;
+	font-weight:normal;
+}
+div#content div span {
+	padding-left:20px;
+	line-height:1.5em;
+	text-align:justify;
+}
+div#content #biomarker-aliases span {
+	padding-left:0px;
+	line-height:auto;
+}
+
+/**
+ * DIV.EDRNINFORMATICS
+ * This is the header that preceeds application content. 
+ */
+div#edrninformatics {
+        position:relative;
+        height:56px;
+        padding:5px;
+        text-align:right;
+        border-bottom:solid 1px #000;
+        overflow:visible;
+        background:url(++resource++edrn.theme.images/blackfade-syncd.jpg) scroll 0px 0px repeat-x;
+        background-color:#000;
+}
+
+/**
+ * DIV.EDRNLOGO
+ * This is the NCI/EDRN logo div which lives inside DIV.EDRNINFORMATICS.
+ */
+div#edrnlogo {
+        position:absolute;
+        top:0px;
+        left:0px;
+        background:url(++resource++edrn.theme.images/nci-small.jpg) scroll -2px 1px no-repeat;
+        height:88px;
+        width:250px;
+	padding-left:115px;
+	padding-top: 6px;
+	color:#eee;
+	z-index:0;
+	line-height:16px;
+	font-size:110%;
+}
+
+/**
+ * DIV.EDRN-DNA
+ * This is the double-helix graphic
+ */
+div#edrn-dna {
+        position:absolute;
+        top:0px;
+        right:0px;
+        height:67px;
+        width:290px;
+	background:url(++resource++edrn.theme.images/edrn_dna-bigger.jpg) scroll right top no-repeat;
+}
+
+/**
+ * H2.APP-TITLE
+ * This is the title for the application. It lives on the right-hand side
+ * of DIV.EDRNINFORMATICS.
+ */
+h2.app-title {
+        position:absolute;
+        top:67px;
+        right:0px;
+        background-color:#555;
+        margin:0px;
+        width:100%;
+        margin-top:0px;
+        padding:5px;
+	padding-top:6px;
+        padding-left:0px;
+        color:#fff;
+        border-top:solid 1px #522;
+        border-bottom:solid 1px #300;
+        font-weight:normal;
+        font-size:15px;
+        letter-spacing:0.03em;
+}
+
+/**
+ * DIV.USERDETAILS
+ * This provides information about the login-status of the user.
+ * It should live within div#edrninformatics
+ */
+div.userdetails {
+        position:absolute;
+        top:102px;
+        right:5px;
+        color:#ecc;
+        font-size:75%;
+        z-index:1000
+}
+div.userdetails a {
+        text-decoration:underline;
+        color:#ecc;
+}
+
+/** 
+ * DIV#BREADCRUMBS
+ * This provides the area for breadcrumbs navigation links
+ */
+div#breadcrumbs {
+        position:relative;
+        margin-top:30px;
+        padding:4px;
+        padding-right:5px;
+        padding-left:5px;
+        border-top:solid 2px #700003;
+        padding-bottom:5px;
+        background-color:#900003;
+        color:#fff;
+        font-size:85%;
+}
+div#breadcrumbs ul {
+        list-style:none;
+        margin:0px;
+        padding:0px;
+}
+div#breadcrumbs ul li {
+        display:inline;
+}
+
+div#breadcrumbs ul li a, div#portal-breadcrumbs a, #portal-personaltools li a {
+        color:#543;
+        font-weight:normal;
+        text-decoration:underline;
+	padding-left:2px;
+}
+
+/**
+ * QUICKLINKS (Left side links)
+**/
+#edrn-quicklinks {
+    margin: 10px 0 0 0;
+    list-style: none;
+    padding: 0;
+    font-size: 85%;
+}
+#edrn-quicklinks li {
+    border: 1px solid;
+    border-color: #ccc #bbb #b6b6b6 #ccc;
+    margin: 0 0 3px 0;
+    background: #f1f1f1 url(++resource++edrn.theme.images/s-bg.gif) top left repeat-x;
+}
+div.LSResult {
+    padding:0px;
+}
+#edrn-quicklinks li a {
+    display: block;
+    padding: 13px 0 13px 60px;
+    text-decoration: none;
+}
+#edrn-quicklinks li a, #edrn-quicklinks li a:link, #edrn-quicklinks li a:visited {
+    background-position: 4px 50%;
+    background-repeat: no-repeat;
+    color: #400;
+}
+#edrn-quicklinks li a:hover, #edrn-quicklinks li a:active {
+    background-position: -462px 50%;
+    background-repeat: no-repeat;
+    color: #004;
+    text-decoration: none;
+}
+#edrn-quicklinks li a:hover {
+    background-color: #fff;
+    color: #f00;
+}
+
+
+/**
+ * PROTOCOL VIEWS 
+**/
+div#protocolMetadataContainer {
+  border:solid 0px #ccc;
+  font-size:90%;
+} 
+
+div#protocolLongTextMetadata {
+  width:60%;
+  padding:0px 10px 10px 0px;
+  float:left;
+}
+
+div#content div#protocolLongTextMetadata label {
+  background-color:#fff;
+  font-size:120%;
+  padding-left:0px;
+  padding-bottom:2px;
+  font-weight:bold;
+}
+
+div#protocolShortTextMetadata {
+  padding:0px 0px 10px 0px;
+  width:35%;
+  float:right;
+}
+div#protocolShortTextMetadata div span {
+  font-size:80%;
+  color:#555;
+  padding-left:0px;
+}
+
+/** 
+ * PERSON VIEWS
+**/
+div.vertical-list label {
+  display:inline;
+  background-color:#fff;
+}
+div#content div.vertical-list span {
+  padding:0px;
+}
+table.contact-info {
+
+}
+table.contact-info th {
+  text-align:left;
+}
+
+/**
+ * HOMEPAGE COLUMNS 
+ */
+div#content {
+  position:relative;
+}
+div#content div.colLeft {
+  float:left;
+  width:350px;
+}
+table#homepage-content-container {
+
+}
+#homepage-content-container tr td {
+  vertical-align:top;
+}
+#homepage-content-container tr td.left {
+  
+}
+#homepage-content-container tr td.right {
+  text-align:right;
+}
+
+div#content div.colLeft h2 {
+  margin:25px 0px 5px 0px;
+  font-size:110%;
+}
+div#content div.colLeft h2.first {
+  margin-top:5px;
+}
+
+div#content div.colRight {
+  position:absolute;
+  top:-27px;
+  right:0px;
+  width:350px; 
+}
+
+/**
+ * HOMEPAGE FIXES
+ */ 
+dl.portlet.portletSearch dt.portletHeader,
+  dl.portlet.portletSearch dd.portletFooter {
+    display:none;
+}
+dl.portlet.portletSearch dd.portletItem {
+  padding-top:0px;
+  padding-left:0px;
+  padding-bottom:0px;
+}
+.portlet {
+  border-bottom:none;
+}
+.portletItem {
+  border:none;
+}
+.portletItem span.stupidTitle {
+  border-bottom:dotted 1px #ccc;
+  width:100%;
+  display:block;
+}
+form#livesearch1 input[type=text] {
+  padding:1px;
+  margin-top:0px;
+  width:75%;
+}
+form#livesearch1 div.LSBox {
+
+}
+
+/**
+ * IMAGES
+ */
+div#parent-fieldname-text img {
+  border:solid 1px #ccc;
+  padding:5px;
+  margin-right:8px;
+}
+
+/**
+ * SITES
+ */ 
+div#content div#site-abbreviation {
+  margin-left:-2px;
+}
+div#content div#site-abbreviation label {
+  display:inline;
+  background-color:transparent;
+  border-bottom:0px;
+}
+div#content div#site-abbreviation span {
+  padding-left:0px;
+}
+div#site-column-container {
+  position:relative;
+  margin:0px;
+  padding:0px;
+}
+div#site-main-column {
+  padding:0px;
+  float:left;
+  width:65%;
+  margin-top:10px;
+}
+div#content div#site-main-column span {
+  padding-left:0px;
+}
+div#site-right-column {
+  padding:0px;
+  float:right;
+  width:30%;
+  margin-top:10px;
+  font-size:90%;
+}

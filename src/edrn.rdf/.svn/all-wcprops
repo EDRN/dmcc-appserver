@@ -1,0 +1,63 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 15
+/repo/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/!svn/ver/10033/edrn/dmcc/appserver/edrn.rdf/trunk
+END
+bootstrap.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/!svn/ver/9248/edrn/dmcc/appserver/edrn.rdf/trunk/bootstrap.py
+END
+buildout.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/!svn/ver/9252/edrn/dmcc/appserver/edrn.rdf/trunk/buildout.cfg
+END
+distribute_setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/!svn/ver/9248/edrn/dmcc/appserver/edrn.rdf/trunk/distribute_setup.py
+END
+mkrelease.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/!svn/ver/9253/edrn/dmcc/appserver/edrn.rdf/trunk/mkrelease.cfg
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/!svn/ver/10033/edrn/dmcc/appserver/edrn.rdf/trunk/setup.py
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/!svn/ver/5840/edrn/dmcc/appserver/edrn.rdf/trunk/README.txt
+END
+tstdata.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/!svn/ver/10031/edrn/dmcc/appserver/edrn.rdf/trunk/tstdata.py
+END
+MANIFEST.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/!svn/ver/5845/edrn/dmcc/appserver/edrn.rdf/trunk/MANIFEST.in
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/setup.cfg
+END

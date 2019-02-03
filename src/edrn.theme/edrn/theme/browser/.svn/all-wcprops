@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/!svn/ver/7813/edrn/utils/edrn.theme/trunk/edrn/theme/browser
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/!svn/ver/7763/edrn/utils/edrn.theme/trunk/edrn/theme/browser/configure.zcml
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/edrn/theme/browser/__init__.py
+END
+edrn-footer.pt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/!svn/ver/5422/edrn/utils/edrn.theme/trunk/edrn/theme/browser/edrn-footer.pt
+END
+edrn-logo.pt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/!svn/ver/7813/edrn/utils/edrn.theme/trunk/edrn/theme/browser/edrn-logo.pt
+END
+edrn-colophon.pt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/!svn/ver/7763/edrn/utils/edrn.theme/trunk/edrn/theme/browser/edrn-colophon.pt
+END
+viewlets.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/!svn/ver/7763/edrn/utils/edrn.theme/trunk/edrn/theme/browser/viewlets.py
+END
+defaultSiteSearchBox.pt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/!svn/ver/5807/edrn/utils/edrn.theme/trunk/edrn/theme/browser/defaultSiteSearchBox.pt
+END
+edrn-site-actions.pt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/edrn/theme/browser/edrn-site-actions.pt
+END
+edrn-skin-logo.pt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/!svn/ver/7075/edrn/utils/edrn.theme/trunk/edrn/theme/browser/edrn-skin-logo.pt
+END
+interfaces.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/edrn/theme/browser/interfaces.py
+END
+nci-bar.pt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/!svn/ver/7075/edrn/utils/edrn.theme/trunk/edrn/theme/browser/nci-bar.pt
+END

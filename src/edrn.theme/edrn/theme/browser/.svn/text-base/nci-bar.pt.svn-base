@@ -1,0 +1,32 @@
+<div id='nci-bar' i18n:domain='edrn.theme'>
+    <div tal:define='siteURL view/site_url'>
+        <img
+            src='nci-banner.gif'
+            tal:attributes='src string:${siteURL}/++resource++edrn.theme.images/nci-banner.gif'
+            usemap='#ncibanner'
+        />
+        <map name='ncibanner'>
+            <area
+                shape='rect'
+                coords='0,3,279,34'
+                href='http://www.cancer.gov/'
+                alt='National Cancer Institute'
+                title='National Cancer Institute'
+            />
+            <area
+                shape='rect'
+                coords='711,16,879,26'
+                href='http://www.nih.gov/'
+                alt='U.S. National Institutes of Health'
+                title='U.S. National Institutes of Health'
+            />
+            <area 
+                shape='rect'
+                coords='888,16,973,26'
+                href='http://www.cancer.gov/'
+                alt='www.cancer.gov'
+                title='www.cancer.gov'
+            />   
+        </map>
+    </div>
+</div>

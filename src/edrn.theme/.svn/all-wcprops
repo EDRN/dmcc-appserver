@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repo/!svn/ver/7813/edrn/utils/edrn.theme/trunk
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/!svn/ver/7788/edrn/utils/edrn.theme/trunk/setup.py
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/!svn/ver/6302/edrn/utils/edrn.theme/trunk/README.txt
+END
+edrn.theme-configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/edrn.theme-configure.zcml
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/setup.cfg
+END

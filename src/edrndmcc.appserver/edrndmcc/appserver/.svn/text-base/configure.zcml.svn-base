@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2008 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<configure
+    xmlns='http://namespaces.zope.org/zope'
+    xmlns:five='http://namespaces.zope.org/five'
+    xmlns:genericsetup='http://namespaces.zope.org/genericsetup'
+    i18n_domain='edrndmcc.appserver'>
+
+    <five:registerPackage package="." initialize=".initialize" />
+
+    <genericsetup:registerProfile 
+        name='default'
+        title='"EDRN DMCC Application Server" Policy'
+        directory='profiles/default'
+        description='Turns a Plone site into a EDRN DMCC Application Server.'
+        provides='Products.GenericSetup.interfaces.EXTENSION'
+    />
+        
+    <include package='edrn.theme' />
+    <include package='edrn.rdf' />
+
+</configure>

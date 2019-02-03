@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/!svn/ver/7821/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types
+END
+Body_System.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types/Body_System.xml
+END
+Protocol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types/Protocol.xml
+END
+Registered_Person.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types/Registered_Person.xml
+END
+Site.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types/Site.xml
+END
+RDF_Folder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/!svn/ver/7821/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types/RDF_Folder.xml
+END
+Committee.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/!svn/ver/7821/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types/Committee.xml
+END
+Publication.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types/Publication.xml
+END
+Disease.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types/Disease.xml
+END

@@ -1,0 +1,15 @@
+===========
+ Changelog
+===========
+
+1.0.0 - FCS
+-----------
+
+Official release ready-to-run.
+
+
+0.0.0 - Unreleased
+------------------
+
+* Initial release
+

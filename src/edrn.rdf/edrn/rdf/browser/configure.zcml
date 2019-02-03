@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2008 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<configure xmlns='http://namespaces.zope.org'
+    xmlns:browser='http://namespaces.zope.org/browser'
+    i18n_domain='edrn.rdf'>
+    <include package='plone.app.contentmenu'/>
+    
+    <!-- RDF Folder -->
+    <browser:resource name='rdf-folder.gif' file='images/rdf-folder.gif'/>
+
+    <!-- Macro for common RDF fields -->
+    <browser:page
+        for='*'
+        permission='zope2.Public'
+        name='standardRDFAttributes'
+        template='templates/source.pt'
+    />
+
+    <!-- Body system -->
+    <browser:resource name='body-system.gif' file='images/body-system.gif'/>
+    <browser:page
+        class='.sourceview.BodySystemView'
+        for='..interfaces.IBodySystem'
+        name='view'
+        permission='zope2.View'
+    />
+    <browser:page
+        class='.rdfview.BodySystemGenerator'
+        for='..interfaces.IBodySystem'
+        name='rdf'
+        permission='zope2.View'
+    />
+    <browser:menuItem
+        action='@@view'
+        description='Default representation of a Body System.'
+        for='..interfaces.IBodySystem'
+        menu='plone_displayviews'
+        title='Body System view'
+    />
+
+    <!-- Disease -->
+    <browser:resource name='disease.gif' file='images/disease.gif'/>
+    <browser:page
+        class='.sourceview.DiseaseView'
+        for='..interfaces.IDisease'
+        name='view'
+        permission='zope2.View'
+    />
+    <browser:page
+        class='.rdfview.DiseaseGenerator'
+        for='..interfaces.IDisease'
+        name='rdf'
+        permission='zope2.View'
+    />
+    <browser:menuItem
+        action='@@view'
+        description='Default representation of a Disease.'
+        for='..interfaces.IDisease'
+        menu='plone_displayviews'
+        title='Disease view'
+    />
+
+    <!-- Site -->
+    <browser:resource name='site.gif' file='images/site.gif'/>
+    <browser:page
+        class='.sourceview.SiteView'
+        for='..interfaces.ISite'
+        name='view'
+        permission='zope2.View'
+    />
+    <browser:page
+        class='.rdfview.SiteGenerator'
+        for='..interfaces.ISite'
+        name='rdf'
+        permission='zope2.View'
+    />
+    <browser:menuItem
+        action='@@view'
+        description='Default representation of a Site.'
+        for='..interfaces.ISite'
+        menu='plone_displayviews'
+        title='Site view'
+    />
+
+    <!-- Publication -->
+    <browser:resource name='publication.gif' file='images/publication.gif'/>
+    <browser:page
+        class='.sourceview.PublicationView'
+        for='..interfaces.IPublication'
+        name='view'
+        permission='zope2.View'
+    />
+    <browser:page
+        class='.rdfview.PublicationGenerator'
+        for='..interfaces.IPublication'
+        name='rdf'
+        permission='zope2.View'
+    />
+    <browser:menuItem
+        action='@@view'
+        description='Default representation of a Publication.'
+        for='..interfaces.IPublication'
+        menu='plone_displayviews'
+        title='Publication view'
+    />
+
+    <!-- Protocol -->
+    <browser:resource name='protocol.gif' file='images/protocol.gif'/>
+    <browser:page
+        class='.sourceview.ProtocolView'
+        for='..interfaces.IProtocol'
+        name='view'
+        permission='zope2.View'
+    />
+    <browser:page
+        class='.rdfview.ProtocolGenerator'
+        for='..interfaces.IProtocol'
+        name='rdf'
+        permission='zope2.View'
+    />
+    <browser:menuItem
+        action='@@view'
+        description='Default representation of a Protocol.'
+        for='..interfaces.IProtocol'
+        menu='plone_displayviews'
+        title='Protocol view'
+    />
+
+    <!-- Registered Person -->
+    <browser:resource name='registered-person.gif' file='images/registered-person.gif'/>
+    <browser:page
+        class='.sourceview.RegisteredPersonView'
+        for='..interfaces.IRegisteredPerson'
+        name='view'
+        permission='zope2.View'
+    />
+    <browser:page
+        class='.rdfview.RegisteredPersonGenerator'
+        for='..interfaces.IRegisteredPerson'
+        name='rdf'
+        permission='zope2.View'
+    />
+    <browser:menuItem
+        action='@@view'
+        description='Default representation of a Registered Person.'
+        for='..interfaces.IRegisteredPerson'
+        menu='plone_displayviews'
+        title='Registered Person view'
+    />
+
+    <!-- Committee -->
+    <browser:resource name='committee.gif' file='images/committee.gif'/>
+    <browser:page
+        class='.sourceview.CommitteeView'
+        for='..interfaces.ICommittee'
+        name='view'
+        permission='zope2.View'
+    />
+    <browser:page
+        class='.rdfview.CommitteeGenerator'
+        for='..interfaces.ICommittee'
+        name='rdf'
+        permission='zope2.View'
+    />
+    <browser:menuItem
+        action='@@view'
+        description='Default representation of a Committee.'
+        for='..interfaces.ICommittee'
+        menu='plone_displayviews'
+        title='Committee view'
+    />
+
+</configure>

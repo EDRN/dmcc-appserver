@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/!svn/ver/10031/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf
+END
+testing.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/!svn/ver/9248/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/testing.py
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/configure.zcml
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/!svn/ver/7821/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/__init__.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/!svn/ver/10031/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/utils.py
+END
+interfaces.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/!svn/ver/7821/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/interfaces.py
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/!svn/ver/9248/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/README.txt
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/!svn/ver/7821/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/config.py
+END

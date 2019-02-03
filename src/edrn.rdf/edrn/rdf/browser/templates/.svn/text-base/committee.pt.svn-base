@@ -1,0 +1,90 @@
+<html xmlns='http://www.w3.org/1999/xhtml'
+    xml:lang='en'
+    lang='en'
+    xmlns:tal='http://xml.zope.org/namespaces/tal'
+    xmlns:metal='http://xml.zope.org/namespaces/metal'
+    xmlns:i18n='http://xml.zope.org/namespaces/i18n'
+    metal:use-macro='context/main_template/macros/master'
+    i18n:domain='edrn.rdf'>
+    <head>
+        <title>committee</title>
+    </head>
+    <body>
+        <metal:main fill-slot='main'>
+            <tal:main-macro metal:define-macro='main'>
+                <div tal:replace='structure provider:plone.abovecontenttitle' />
+                <h1 class='documentFirstHeading'> 
+                    <metal:field use-macro='python:context.widget("title", mode="view")'>
+                        Title
+                    </metal:field>
+                </h1>
+                <div tal:replace='structure provider:plone.belowcontenttitle' />
+                <div class="documentDescription">
+                    <span metal:use-macro="python:context.widget('description', mode='view')" />
+                </div>
+                <div tal:replace='structure provider:plone.abovecontentbody' />
+                <div metal:use-macro='context/@@standardRDFAttributes/macros/attrs'>Standard attributes.</div>
+
+                <div>
+                    <label for='parent-fieldname-abbreviatedNamePredicateURI'
+                        i18n:translate='label_abbreviatedNamePredicateURI'>
+                        Abbreviated Name Predicate URI:
+                    </label>
+                    <metal:field use-macro='python:context.widget("abbreviatedNamePredicateURI", mode="view")'>
+                        http://x.com/rdf/schemata/x312-6#anp
+                    </metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-committeeTypePredicateURI'
+                        i18n:translate='label_committeeTypePredicateURI'>
+                        Committee Type Predicate URI:
+                    </label>
+                    <metal:field use-macro='python:context.widget("committeeTypePredicateURI", mode="view")'>
+                        http://x.com/rdf/schemata/x312-6#ct
+                    </metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-chairPredicateURI'
+                        i18n:translate='label_chairPredicateURI'>
+                        Chair Predicate URI:
+                    </label>
+                    <metal:field use-macro='python:context.widget("chairPredicateURI", mode="view")'>
+                        http://x.com/rdf/schemata/x312-6#c
+                    </metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-coChairPredicateURI'
+                        i18n:translate='label_coChairPredicateURI'>
+                        Co-Chair Predicate URI:
+                    </label>
+                    <metal:field use-macro='python:context.widget("coChairPredicateURI", mode="view")'>
+                        http://x.com/rdf/schemata/x312-6#coc
+                    </metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-consultantPredicateURI'
+                        i18n:translate='label_consultantPredicateURI'>
+                        Consultant Predicate URI:
+                    </label>
+                    <metal:field use-macro='python:context.widget("consultantPredicateURI", mode="view")'>
+                        http://x.com/rdf/schemata/x312-6#con
+                    </metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-memberPredicateURI'
+                        i18n:translate='label_memberPredicateURI'>
+                        Member Predicate URI:
+                    </label>
+                    <metal:field use-macro='python:context.widget("memberPredicateURI", mode="view")'>
+                        http://x.com/rdf/schemata/x312-6#member
+                    </metal:field>
+                </div>
+
+                <div metal:use-macro='context/document_relateditems/macros/relatedItems'>
+                    Any related items
+                </div>
+                <div tal:replace='structure provider:plone.belowcontentbody' />
+            </tal:main-macro>
+        </metal:main>
+    </body>
+</html>

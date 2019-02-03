@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 105
+*.pyc
+*.egg-info
+._*
+*.log
+.DS_Store
+build
+dist
+doc.txt
+develop-eggs
+src
+parts
+.*.cfg
+bin
+*.tar.gz
+*.egg
+
+END

@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 37
+*.egg-info
+*.pyc
+*.log
+._*
+.DS_Store
+
+END

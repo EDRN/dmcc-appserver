@@ -1,0 +1,10 @@
+<div metal:define-macro='attrs'>
+    <div>
+        <label for='parent-fieldname-uriPrefix' i18n:translate='label_uriPrefix'>URI Prefix</label>
+        <metal:field use-macro='python:context.widget("uriPrefix", mode="view")'>http://edrn.nci.nih.gov/data/</metal:field>
+    </div>
+    <div>
+        <label for='parent-fieldname-typeURI' i18n:translate='label_typeURI'>Type URI</label>
+        <metal:field use-macro='python:context.widget("typeURI", mode="view")'>http://edrn.nci.nih.gov/rdf/types.rdf#Thing</metal:field>
+    </div>
+</div>

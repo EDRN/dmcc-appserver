@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2008 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<rolemap>
+    <permissions>
+        <permission name='EDRN RDF: Add RDF Folder' acquire='False'>
+            <role name='Manager' />
+        </permission>
+        <permission name='EDRN RDF: Add Body System' acquire='True'>
+            <role name='Manager' />
+            <role name='Owner' />
+            <role name='Contributor' />
+        </permission>
+        <permission name='EDRN RDF: Add Disease' acquire='True'>
+            <role name='Manager' />
+            <role name='Owner' />
+            <role name='Contributor' />
+        </permission>
+        <permission name='EDRN RDF: Add Site' acquire='True'>
+            <role name='Manager' />
+            <role name='Owner' />
+            <role name='Contributor' />
+        </permission>
+        <permission name='EDRN RDF: Add Publication' acquire='True'>
+            <role name='Manager' />
+            <role name='Owner' />
+            <role name='Contributor' />
+        </permission>
+        <permission name='EDRN RDF: Add Protocol' acquire='True'>
+            <role name='Manager' />
+            <role name='Owner' />
+            <role name='Contributor' />
+        </permission>
+        <permission name='EDRN RDF: Add Registered Person' acquire='True'>
+            <role name='Manager' />
+            <role name='Owner' />
+            <role name='Contributor' />
+        </permission>
+        <permission name='EDRN RDF: Add Committee' acquire='True'>
+            <role name='Manager' />
+            <role name='Owner' />
+            <role name='Contributor' />
+        </permission>
+    </permissions>
+</rolemap>

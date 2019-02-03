@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/!svn/ver/9248/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/tests
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/tests/__init__.py
+END
+test_functional.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/!svn/ver/9248/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/tests/test_functional.py
+END

@@ -1,0 +1,47 @@
+<!-- <div id="edrnlogo" tal:define='home view/navigation_root_url'>
+  <strong>Early Detection Research Network</strong><br/>
+  <span style="font-size:85%;color:#bbb">Division of Cancer Prevention</span>
+</div>
+<div id="edrn-dna"></div> -->
+<!--[if lt IE 8]>
+<style type="text/css">
+    ul#portal-globalnav {
+	margin-top:2px;
+    }
+</style>
+<![endif]-->
+<!--
+<div id='edrn-skin-logo' i18n:domain='edrn.theme' tal:define='home view/navigation_root_url'>
+    <a accesskey='1'
+        tal:attributes='href home'>
+        <img src='logo.jpg' alt='Home' i18n:attributes='alt'
+            tal:attributes='src string:${home}/++resource++edrn.theme.images/logo.gif'
+        />
+    </a>
+</div>
+
+<div id="edrninformatics">
+  <div id="edrnlogo"></div>
+  <div id="edrn-dna"></div>
+  <h2 class="app-title" tal:content='view/@@plone_portal_state/portal_title'>EDRN Application</h2>
+
+  <div class='bonusSearchBox' tal:define='portalURL context/@@plone_portal_state/portal_url;'>
+  <form name='topSearchForm' class='bonusSearchBox' action='#' method='get' tal:attributes='action string:${portalURL}/search;'>
+    <label for='SearchableText' i18n:translate='bonusSearch_searchEDRN'>Search&nbsp;EDRN:</label>&nbsp;<input
+      name='SearchableText' id='SearchableText' type='text' size='40' title='Search Site'
+      i18n:attributes='title title_search_title;' tal:attributes='value request/SearchableText|nothing;'/>&nbsp;<input
+      class='searchButton' type='submit' value='Search' i18n:attributes='value label_search;'/>
+  </form>
+  </div>
+
+  <div class="userdetails">
+    &nbsp;&nbsp;
+  </div>
+</div>
+<div class="menu">
+  <div id="breadcrumbs">
+    &nbsp;&nbsp;
+  </div>
+</div>
+-->
+

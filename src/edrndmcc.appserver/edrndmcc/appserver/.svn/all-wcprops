@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrndmcc.appserver/trunk/edrndmcc/appserver
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrndmcc.appserver/trunk/edrndmcc/appserver/configure.zcml
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrndmcc.appserver/trunk/edrndmcc/appserver/__init__.py
+END

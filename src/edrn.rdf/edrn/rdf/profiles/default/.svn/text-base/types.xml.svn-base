@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2008 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<object name='portal_types' meta_type='Plone Types Tool'>
+    <object name='RDF Folder'        meta_type='Factory-based Type Information with dynamic views'/>
+    <object name='Body System'       meta_type='Factory-based Type Information with dynamic views'/>
+    <object name='Disease'           meta_type='Factory-based Type Information with dynamic views'/>
+    <object name='Site'              meta_type='Factory-based Type Information with dynamic views'/>
+    <object name='Publication'       meta_type='Factory-based Type Information with dynamic views'/>
+    <object name='Protocol'          meta_type='Factory-based Type Information with dynamic views'/>
+    <object name='Registered Person' meta_type='Factory-based Type Information with dynamic views'/>
+    <object name='Committee'         meta_type='Factory-based Type Information with dynamic views'/>
+</object>

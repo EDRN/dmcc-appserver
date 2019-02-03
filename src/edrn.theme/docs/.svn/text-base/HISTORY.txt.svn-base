@@ -1,0 +1,95 @@
+Changelog
+=========
+
+What follows is a history of changes from release to release.  For issue IDs
+mentioned below, you can learn more about them by visiting the issue tracker
+at https://oodt.jpl.nasa.gov/jira/browse/CA.
+
+1.0.2 - The Little Dutch Boy
+----------------------------
+
+The only issue addressed by this release is:
+
+* CA-632 - Portal 3 leaks memory?
+
+
+1.0.1 - Anal Retentiveness
+--------------------------
+
+The only issue addressed by this release is:
+
+* CA-529 - Remove "Valid XHTML" and "Valid CSS" links
+
+
+1.0.0 - Fantasizing on Facetizing
+---------------------------------
+
+After being in production for several months we've decided to call it version
+1 at last.  However, this release also adds styling for future faceted
+navigation features.  It also adds styling and imagery for the Members List
+button for the QuickLinks portlet.
+
+It also addresses the following issues:
+
+* CA-642 - Create a new member page
+* CA-666 - Sites Page clean up
+
+You can learn more about this issue by visiting the Informatics Center's issue
+tracker at https://oodt.jpl.nasa.gov/jira/browse/CA.
+
+
+0.0.6 - The Eleventh Hour
+-------------------------
+
+After viewing the new look-and-feel for EDRN across a variety of applications,
+management suddenly realizes they don't like it.  This release attempts to
+satisfy them.  See https://oodt.jpl.nasa.gov/jira/browse/CA-599 as well as
+https://oodt.jpl.nasa.gov/jira/browse/CA-600 for more details.
+
+
+0.0.5 - Unknown release
+-----------------------
+
+It's a myyyyssteeeerrry!
+
+
+0.0.4 - Small Screens Welcome
+-----------------------------
+
+The following issues have been addressed in this release:
+
+* http://oodt.jpl.nasa.gov/jira/browse/CA-477 - Portal requires screen width
+  of 1280 to display all content
+* http://oodt.jpl.nasa.gov/jira/browse/CA-497 - Search results appearing as
+  separated from search result facet links
+
+
+0.0.3 - Quicklinks Portlet Look and Feel
+----------------------------------------
+
+The following issues have been addressed in this release:
+
+* http://oodt.jpl.nasa.gov/jira/browse/CA-466 - Change order of links on the
+  left side menu of the portal
+
+
+0.0.2 - Modernization and Metadata
+----------------------------------
+
+* Copious work by Andrew Hart to further modernize the look and feel for EDRN.
+* Updated project metadata.
+
+
+0.0.1 - FCS
+-----------
+
+This is a first customer ship, though it should be considered a work in
+progress.
+
+
+0.0.0 - Unreleased
+------------------
+
+Initial release.
+
+

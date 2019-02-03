@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 56
+*.egg-info
+*.pyc
+*.log
+._*
+.DS_Store
+build
+dist
+doc.txt
+
+END

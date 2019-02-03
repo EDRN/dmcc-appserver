@@ -1,0 +1,104 @@
+<html xmlns='http://www.w3.org/1999/xhtml'
+    xml:lang='en'
+    lang='en'
+    xmlns:tal='http://xml.zope.org/namespaces/tal'
+    xmlns:metal='http://xml.zope.org/namespaces/metal'
+    xmlns:i18n='http://xml.zope.org/namespaces/i18n'
+    metal:use-macro='context/main_template/macros/master'
+    i18n:domain='edrn.rdf'>
+    <head>
+        <title>site</title>
+    </head>
+    <body>
+        <metal:main fill-slot='main'>
+            <tal:main-macro metal:define-macro='main'>
+                <div tal:replace='structure provider:plone.abovecontenttitle' />
+                <h1 class='documentFirstHeading'> 
+                    <metal:field use-macro='python:context.widget("title", mode="view")'>
+                        Title
+                    </metal:field>
+                </h1>
+                <div tal:replace='structure provider:plone.belowcontenttitle' />
+                <div class="documentDescription">
+                    <span metal:use-macro="python:context.widget('description', mode='view')" />
+                </div>
+                <div tal:replace='structure provider:plone.abovecontentbody' />
+                <div metal:use-macro='context/@@standardRDFAttributes/macros/attrs'>Standard attributes.</div>
+                <div>
+                    <label for='parent-fieldname-titleURI' i18n:translate='label_titleURI'>Title URI</label>
+                    <metal:field use-macro='python:context.widget("titleURI", mode="view")'>
+                        http://purl.org/dc/terms/title
+                    </metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-abbrevNameURI' i18n:translate='label_abbrevNameURI'>Abbreviation URI</label>
+                    <metal:field use-macro='python:context.widget("abbrevNameURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-assocMemberSponsorURI' i18n:translate='label_assocMemberSponsorURI'>
+                        Sponsor Member URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("assocMemberSponsorURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-fundingDateStartURI' i18n:translate='label_fundingDateStartURI'>
+                        Funding Start Date URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("fundingDateStartURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-fundingDateFinishURI' i18n:translate='label_fundingDateFinishURI'>
+                        Funding End Date URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("fundingDateFinishURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-fwaNumberURI' i18n:translate='label_fwaNumberURI'>FWA Number URI</label>
+                    <metal:field use-macro='python:context.widget("fwaNumberURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-piURI' i18n:translate='label_piURI'>PI URI</label>
+                    <metal:field use-macro='python:context.widget("piURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+				<div>
+				    <label for='parent-fieldname-coPIURI' i18n:translate='label_coPIURI'>Co-PI URI</label>
+				    <metal:field use-macro='python:context.widget("coPIURI", mode="view")'>http://x.com/y</metal:field>
+				</div>
+                <div>
+                    <label for='parent-fieldname-coIURI' i18n:translate='label_coIURI'>Co-I URI</label>
+                    <metal:field use-macro='python:context.widget("coIURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+				<div>
+				    <label for='parent-fieldname-investigatorURI' i18n:translate='label_investigatorURI'>
+				    	Investigator URI
+				    </label>
+				    <metal:field use-macro='python:context.widget("investigatorURI", mode="view")'>http://x.com/y</metal:field>
+				</div>
+                <div>
+                    <label for='parent-fieldname-staffURI' i18n:translate='label_staffURI'>Staff URI</label>
+                    <metal:field use-macro='python:context.widget("staffURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+				<div>
+				    <label for='parent-fieldname-programURI' i18n:translate='label_programURI'>Program URI:</label>
+				    <metal:field use-macro='python:context.widget("programURI", mode="view")'>http://x.com/y</metal:field>
+				</div>
+                <div>
+                    <label for='parent-fieldname-urlURI' i18n:translate='label_urlURI'>URL to Homepage URI</label>
+                    <metal:field use-macro='python:context.widget("urlURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-memberTypeURI' i18n:translate='label_memberTypeURI'>Member Type URI</label>
+                    <metal:field use-macro='python:context.widget("memberTypeURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-histNotesURI' i18n:translate='label_histNotesURI'>Historical Notes URI</label>
+                    <metal:field use-macro='python:context.widget("histNotesURI", mode="view")'>http://x.com/y</metal:field>
+                </div>
+                <div metal:use-macro='context/document_relateditems/macros/relatedItems'>
+                    Any related items
+                </div>
+                <div tal:replace='structure provider:plone.belowcontentbody' />
+            </tal:main-macro>
+        </metal:main>
+    </body>
+</html>

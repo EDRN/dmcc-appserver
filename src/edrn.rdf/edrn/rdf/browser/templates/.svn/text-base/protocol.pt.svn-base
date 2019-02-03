@@ -1,0 +1,267 @@
+<html xmlns='http://www.w3.org/1999/xhtml'
+    xml:lang='en'
+    lang='en'
+    xmlns:tal='http://xml.zope.org/namespaces/tal'
+    xmlns:metal='http://xml.zope.org/namespaces/metal'
+    xmlns:i18n='http://xml.zope.org/namespaces/i18n'
+    metal:use-macro='context/main_template/macros/master'
+    i18n:domain='edrn.rdf'>
+    <head>
+        <title>publication</title>
+    </head>
+    <body>
+        <metal:main fill-slot='main'>
+            <tal:main-macro metal:define-macro='main'>
+                <div tal:replace='structure provider:plone.abovecontenttitle' />
+                <h1 class='documentFirstHeading'> 
+                    <metal:field use-macro='python:context.widget("title", mode="view")'>
+                        Title
+                    </metal:field>
+                </h1>
+                <div tal:replace='structure provider:plone.belowcontenttitle' />
+                <div class="documentDescription">
+                    <span metal:use-macro="python:context.widget('description', mode='view')" />
+                </div>
+                <div tal:replace='structure provider:plone.abovecontentbody' />
+                <div metal:use-macro='context/@@standardRDFAttributes/macros/attrs'>Standard attributes.</div>
+
+                <div>
+                    <label for='parent-fieldname-siteSpecURIPrefix' i18n:translate='label_siteSpecURIPrefix'>Site-Specific URI Prefix:</label>
+                    <metal:field use-macro='python:context.widget("siteSpecURIPrefix", mode="view")'>http://get.bent/</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-titleURI' i18n:translate='label_titleURI'>Title URI</label>
+                    <metal:field use-macro='python:context.widget("titleURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-abstractURI' i18n:translate='label_abstractURI'>Abstract URI</label>
+                    <metal:field use-macro='python:context.widget("abstractURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-involvedInvestigatorSiteURI' i18n:translate='label_involvedInvestigatorSiteURI'>
+                        Involved Investigator Site URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("involvedInvestigatorSiteURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-bmNameURI' i18n:translate='label_bmNameURI'>BM Name URI</label>
+                    <metal:field use-macro='python:context.widget("bmNameURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-coordinateInvestigatorSiteURI' i18n:translate='label_coordinateInvestigatorSiteURI'>
+                        Coordinating Investigator Site URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("coordinateInvestigatorSiteURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-leadInvestigatorSiteURI' i18n:translate='label_leadInvestigatorSiteURI'>
+                        Lead Investigator Site URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("leadInvestigatorSiteURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-collaborativeGroupTextURI' i18n:translate='label_collaborativeGroupTextURI'>
+                        Collaborative Group Text URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("collaborativeGroupTextURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-phasedStatusURI' i18n:translate='label_phasedStatusURI'>Phased Status URI</label>
+                    <metal:field use-macro='python:context.widget("phasedStatusURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-aimsURI' i18n:translate='label_aimsURI'>Aims URI</label>
+                    <metal:field use-macro='python:context.widget("aimsURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-analyticMethodURI' i18n:translate='label_analyticMethodURI'>Analytic Method URI</label>
+                    <metal:field use-macro='python:context.widget("analyticMethodURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-blindingURI' i18n:translate='label_blindingURI'>Blinding URI</label>
+                    <metal:field use-macro='python:context.widget("blindingURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-cancerTypeURI' i18n:translate='label_cancerTypeURI'>Cancer Type URI</label>
+                    <metal:field use-macro='python:context.widget("cancerTypeURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-commentsURI' i18n:translate='label_commentsURI'>Comments URI</label>
+                    <metal:field use-macro='python:context.widget("commentsURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-dataSharingPlanURI' i18n:translate='label_dataSharingPlanURI'>Data Sharing Plan URI</label>
+                    <metal:field use-macro='python:context.widget("dataSharingPlanURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-inSituDataSharingPlanURI' i18n:translate='label_inSituDataSharingPlanURI'>
+                        In-Situ Data Sharing Plan URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("inSituDataSharingPlanURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-finishDateURI' i18n:translate='label_finishDateURI'>Finish Date URI</label>
+                    <metal:field use-macro='python:context.widget("finishDateURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-estimatedFinishDateURI' i18n:translate='label_estimatedFinishDateURI'>
+                        Estimated Finish Date URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("estimatedFinishDateURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-startDateURI' i18n:translate='label_startDateURI'>Start Date URI</label>
+                    <metal:field use-macro='python:context.widget("startDateURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-designURI' i18n:translate='label_designURI'>Design URI</label>
+                    <metal:field use-macro='python:context.widget("designURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-fieldOfResearchURI' i18n:translate='label_fieldOfResearchURI'>Field of Research URI</label>
+                    <metal:field use-macro='python:context.widget("fieldOfResearchURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-abbreviatedNameURI' i18n:translate='label_abbreviatedNameURI'>Abbreviated Name URI</label>
+                    <metal:field use-macro='python:context.widget("abbreviatedNameURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-objectiveURI' i18n:translate='label_objectiveURI'>Objective URI</label>
+                    <metal:field use-macro='python:context.widget("objectiveURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-projectFlagURI' i18n:translate='label_projectFlagURI'>Project Flag URI</label>
+                    <metal:field use-macro='python:context.widget("projectFlagURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-protocolTypeURI' i18n:translate='label_protocolTypeURI'>Protocol Type URI</label>
+                    <metal:field use-macro='python:context.widget("protocolTypeURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-publicationsURI' i18n:translate='label_publicationsURI'>Publications URI</label>
+                    <metal:field use-macro='python:context.widget("publicationsURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-outcomeURI' i18n:translate='label_outcomeURI'>Outcome URI</label>
+                    <metal:field use-macro='python:context.widget("outcomeURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-secureOutcomeURI' i18n:translate='label_secureOutcomeURI'>Secure Outcome URI</label>
+                    <metal:field use-macro='python:context.widget("secureOutcomeURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-finalSampleSizeURI' i18n:translate='label_finalSampleSizeURI'>Final Sample Size URI</label>
+                    <metal:field use-macro='python:context.widget("finalSampleSizeURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-plannedSampleSizeURI' i18n:translate='label_plannedSampleSizeURI'>Planend Sample Size URI</label>
+                    <metal:field use-macro='python:context.widget("plannedSampleSizeURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-isAPilotForURI' i18n:translate='label_isAPilotForURI'>Is A Pilot URI</label>
+                    <metal:field use-macro='python:context.widget("isAPilotForURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-obtainsDataFromURI' i18n:translate='label_obtainsDataFromURI'>Obtains Data From URI</label>
+                    <metal:field use-macro='python:context.widget("obtainsDataFromURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-providesDataToURI' i18n:translate='label_providesDataToURI'>Provides Data To URI</label>
+                    <metal:field use-macro='python:context.widget("providesDataToURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-contributesSpecimensURI' i18n:translate='label_contributesSpecimensURI'>
+                        Contributes Sepcimens URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("contributesSpecimensURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-obtainsSpecimensFromURI' i18n:translate='label_obtainsSpecimensFromURI'>
+                        Obtains Specimens From URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("obtainsSpecimensFromURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-hasOtherRelationshipURI' i18n:translate='label_hasOtherRelationshipURI'>
+                        Has Other Relationship URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("hasOtherRelationshipURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-animalSubjectTrainingReceivedURI' i18n:translate='label_animalSubjectTrainingReceivedURI'>
+                        Animal Subject Training Received URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("animalSubjectTrainingReceivedURI", mode="view")'>
+                        http://rdf.com/rdf
+                    </metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-humanSubjectTrainingReceivedURI' i18n:translate='label_humanSubjectTrainingReceivedURI'>
+                        Human Subject Training Received URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("humanSubjectTrainingReceivedURI", mode="view")'>
+                        http://rdf.com/rdf
+                    </metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-irbApprovalNeededURI' i18n:translate='label_irbApprovalNeededURI'>
+                        IRB Approval Needed URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("irbApprovalNeededURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-currentIRBApprovalDateURI' i18n:translate='label_currentIRBApprovalDateURI'>
+                        Current IRB Approval Date URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("currentIRBApprovalDateURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-originalIRBApprovalDateURI' i18n:translate='label_originalIRBApprovalDateURI'>
+                        Original IRB Approval Date URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("originalIRBApprovalDateURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-irbExpirationDateURI' i18n:translate='label_irbExpirationDateURI'>
+                        IRB Expiration Date URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("irbExpirationDateURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-generalIRBNotesURI' i18n:translate='label_generalIRBNotesURI'>
+                        General IRB Notes URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("generalIRBNotesURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-irbNumberURI' i18n:translate='label_irbNumberURI'>
+                        IRB Number URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("irbNumberURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-siteRoleURI' i18n:translate='label_siteRoleURI'>
+                        Site Role URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("siteRoleURI", mode="view")'>http://rdf.com/rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-reportingStageURI' i18n:translate='label_reportingStageURI'>
+                        Report Stage URI
+                    </label>
+                    <metal:field use-macro='python:context.widget("reportingStageURI", mode="view")'>http://rdf</metal:field>
+                </div>
+                <div>
+                    <label for='parent-fieldname-eligibilityCriteriaURI' i18n:translate='label_eligibilityCriteriaURI'>
+                        Eligibility Criteria URI:
+                    </label>
+                    <metal:field use-macro='python:context.widget("eligibilityCriteriaURI", mode="view")'>http://rdf/</metal:field>
+                </div>
+                <div metal:use-macro='context/document_relateditems/macros/relatedItems'>
+                    Any related items
+                </div>
+                <div tal:replace='structure provider:plone.belowcontentbody' />
+            </tal:main-macro>
+        </metal:main>
+    </body>
+</html>

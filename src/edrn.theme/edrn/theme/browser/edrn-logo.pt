@@ -1,0 +1,22 @@
+<div i18n:domain='edrn.theme'>
+	<div id='edrn-logo' tal:define='home view/navigation_root_url'>
+		<h1 i18n:translate='early_detection_research_network'>
+			<img
+				id='edrnlogo-logo'
+				alt='EDRN Logo'
+				i18n:attributes='alt edrnLogoAltText'
+				src='fuzzy-caterpillars.png'
+				tal:attributes='src string:${home}/++resource++edrn.theme.images/fuzzy-caterpillars.png'
+			/>
+			Early Detection Research Network
+		</h1>
+		<h2 i18n:translate='edrn_motto'>
+			Biomarkers: the key to early detection
+		</h2>
+	</div>
+	<div id='dcplogo'>
+		<a href='http://prevention.cancer.gov/'>
+			<h2 class='dcplogo' i18n:translate='division_of_cancer_prevetion'>Division of Cancer Prevention</h2>
+		</a>
+	</div>
+</div>

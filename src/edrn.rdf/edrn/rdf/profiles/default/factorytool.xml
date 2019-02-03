@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2008 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<object name='portal_factory' meta_type='Plone Factory Tool'>
+    <factorytypes>
+        <type portal_type='RDF Folder' />
+        <type portal_type='Body System' />
+        <type portal_type='Disease' />
+        <type portal_type='Site' />
+        <type portal_type='Publication' />
+        <type portal_type='Protocol' />
+        <type portal_type='Registered Person' />
+        <type portal_type='Committee' />
+    </factorytypes>
+</object>

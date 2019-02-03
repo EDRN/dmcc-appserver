@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/!svn/ver/7822/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default
+END
+metadata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/metadata.xml
+END
+types.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/!svn/ver/7822/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/types.xml
+END
+factorytool.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repo/!svn/ver/7821/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/factorytool.xml
+END
+rolemap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/!svn/ver/7821/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/profiles/default/rolemap.xml
+END

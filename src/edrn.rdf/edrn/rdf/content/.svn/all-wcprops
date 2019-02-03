@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repo/!svn/ver/9248/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content
+END
+publication.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/publication.py
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/base.py
+END
+disease.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/disease.py
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/!svn/ver/9248/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/configure.zcml
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/__init__.py
+END
+protocol.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/!svn/ver/5976/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/protocol.py
+END
+bodysystem.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/bodysystem.py
+END
+registeredperson.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/!svn/ver/7825/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/registeredperson.py
+END
+site.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/!svn/ver/7825/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/site.py
+END
+committee.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/!svn/ver/7821/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/committee.py
+END
+rdffolder.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/!svn/ver/5277/edrn/dmcc/appserver/edrn.rdf/trunk/edrn/rdf/content/rdffolder.py
+END

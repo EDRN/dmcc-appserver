@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/!svn/ver/7763/edrn/utils/edrn.theme/trunk/edrn/theme/profiles/default
+END
+actions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/edrn/theme/profiles/default/actions.xml
+END
+edrn.theme_various.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/edrn/theme/profiles/default/edrn.theme_various.txt
+END
+metadata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/!svn/ver/7669/edrn/utils/edrn.theme/trunk/edrn/theme/profiles/default/metadata.xml
+END
+cssregistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/!svn/ver/5318/edrn/utils/edrn.theme/trunk/edrn/theme/profiles/default/cssregistry.xml
+END
+viewlets.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/!svn/ver/7763/edrn/utils/edrn.theme/trunk/edrn/theme/profiles/default/viewlets.xml
+END
+jsregistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/edrn/theme/profiles/default/jsregistry.xml
+END
+skins.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/edrn/theme/profiles/default/skins.xml
+END
+import_steps.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/!svn/ver/4635/edrn/utils/edrn.theme/trunk/edrn/theme/profiles/default/import_steps.xml
+END
